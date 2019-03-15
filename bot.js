@@ -715,7 +715,7 @@ message.channel.send(
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/xA8s2AU**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/cXnyGhp**")
      
      
   message.channel.sendEmbed(embed);
@@ -2367,7 +2367,7 @@ var al7arthyCodes2 = ["??__60%__  **|**  ??__40%__","??__63%__  **|**  ??__37%__
 client.on('message', message => {
     if(!message.guild) return;
     if (message.author.bot) return;
-      let id = message.author.id,prefix="a";//البريفكس
+      let id = message.author.id,prefix="D";//البريفكس
       if (ti[id] && (new Date).getTime() - ti[id] < 20*1000) {
           let r = (new Date).getTime() - ti[id];
           r = 20*1000 - r;
@@ -2924,7 +2924,7 @@ ${prefix}queue ? لمعرفة قآئمة التشغيل
             if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('G.users')){
- if(!message.author.id === '455288398249328650') return;
+ if(!message.author.id === '455288398249328654') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -2935,7 +2935,7 @@ client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id == 455288398249328650) return;
+  if (message.author.id == 455288398249328645) return;
 
 
 if (message.content.startsWith(prefix + 'playing')) {
